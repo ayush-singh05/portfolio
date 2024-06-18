@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import {Button} from './ui/button';
+import {Button} from '@/components/ui/Button';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
 
