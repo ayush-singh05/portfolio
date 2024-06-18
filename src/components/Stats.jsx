@@ -24,7 +24,7 @@ function Stats() {
     <div className='container max-auto '>
     <div className='flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none'>
         {stats.map((item,idx) =>(
-            <div className='flex gap-6 items-center justify-center xl:justify-start'>
+            <div className='flex gap-6 items-center justify-center xl:justify-start' key={idx}>
                 <CountUp 
                     end={item.num} 
                     duration={5} 
